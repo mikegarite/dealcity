@@ -535,13 +535,13 @@ var App = {
       $("#filters").animate({
         height: 100,
         padding: "20px 0"
-      }, 500)
+      }, 400)
     } else {
       $(".filters").removeClass("show-filters");
       $("#filters").animate({
         height: 0,
         padding: 0
-      }, 500)
+      }, 400)
     }
   },
   autoComplete: function (e) {
