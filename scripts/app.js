@@ -464,7 +464,7 @@ var App = {
   },
   runLoader: function () {
     if ($(".overlay").length == 0) {
-      $("body").append('<div class="overlay"><img class="loading" src="../images/loading.gif"/></div>');
+      $("body").append('<div class="overlay"><img class="loading" src="images/loading.gif"/></div>');
       $(".overlay").fadeIn(500)
     }
   },
