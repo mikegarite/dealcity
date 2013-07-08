@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dealcity</title>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="scripts/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="scripts/app.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<div class="header-inner">
+				<img class="logo" height="40" src="images/logo.png"/>
+				<input type="text" id="text-input" value="" />
+				<p class="current-division">Current City</p>
+			    <p class="category-change">What do you want to do?</p>
+			</div>
+		</header>
+		<div id="filters">
+			<div class="by-tag"></div>
+			<div class="by-co"></div>
+		</div>
+		<div class="filter-catch"></div>
+		<div id="results"></div>
+		<div class="division-list"></div>
+		<div class="category-choice">
+			<p data-category="date_night">Date Night</p>
+			<p data-category="pamper_yourself">Pamper Yourself</p>
+			<p data-category="birthday_fun">Birthday Fun</p>
+			<p data-category="be_adventurous">Be Adventurous</p>
+			<p data-category="grab_a_bite">Grab A Bite</p>
+			<p data-category="get_away">Get Away</p>
+			<p data-category="move_your_body">Move Your Body</p>
+			<p data-category="have_a_drink">Have A Drink</p>
+			<p data-category="girls_night_out">Girls Night Out</p>
+			<p data-category="boys_night_out">Boys Night Out</p>
+			<p data-category="do_something_different">Do Something Different</p>
+			<p data-category="explore_the_city">Explore The City</p>
+			<p data-category="meet_new_people">Meet New People</p>
+			<p data-category="give_a_gift">Give A Gift</p>
+		</div>
+		<script>App.init();</script>
+	</body>
+</html>
